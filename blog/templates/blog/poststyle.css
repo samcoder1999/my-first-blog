@@ -1,0 +1,35 @@
+body { background-color: gold; text-align: center;
+
+}
+.menu1{background-color: darkred;display: inline-block;width: 1500px;height: 100px}
+
+li{
+    display: inline-block;
+}
+#two{float: right;}
+#head1{color:whitesmoke;
+   font-family: 'Poor Richard'; text-align: center; font-weight: bold;font-size: xx-large
+  ;
+}
+#para1 {font-family: Vladimir Script;
+color: whitesmoke;
+}
+.rubbish{
+  padding-top: 0px ;
+ border: 50px; border-style: groove;
+  color: firebrick;
+  border-color: floralwhite;}
+  #chumma{background-color: goldenrod;font-style: italic;}
+  #div1{ color: darkred;;border:10px;background-color: khaki;}
+  #div2{float: left;overflow:auto;}
+  .maindiv1{display: inline;
+   }
+   .maindiv2{display:inline-block;width:1500px; }
+   .div3{float: left;overflow: auto;}
+   .div4{border:10px;background-color: khaki;color: darkred;}
+   #h1{text-decoration: underline;}
+   .maindiv3
+   {display:inline-block;width: 1500px;background-color: khaki;}
+   .div6{float: left;}
+   .div7{font-size: large;color: darkred}
+   #h3{font-size: xx-large;text-decoration: underline;}
