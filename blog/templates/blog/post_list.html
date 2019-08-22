@@ -2,8 +2,8 @@
 <html>
        
     <head >
-          <title> La Ferrari</title>
-          
+          <title> blog list</title>
+          <link rev="stylesheet" href="../blog/static/poststyle.css">
     </head>
     
     <body bgcolor="#808080">
@@ -11,8 +11,8 @@
             <div style="font-size: x-large">
                 {% for post in posts %}
                 <div>
-                        <p>published: {{ post.published_date }}</p>
-                        <h2><a href="">{{ post.title }}</a></h2>
+                        <p>published: {{ post.title }}
+                        <h2><a href="">{{ post.published_date }}</a></h2>
                         <p>{{ post.text|linebreaksbr }}</p>
                     </div>
                 {% endfor %} 
